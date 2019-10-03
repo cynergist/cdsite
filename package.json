@@ -1,7 +1,7 @@
 {
   "version": "3.0.0",
-  "name": "gatsby-v2-starter-lumen",
-  "description": "Simple starter for Gatsby",
+  "name": "cdsite",
+  "description": "My personal site using Gatsby",
   "main": "n/a",
   "scripts": {
     "develop": "gatsby develop",
@@ -11,9 +11,9 @@
     "lint": "./node_modules/.bin/eslint --cache --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write './*.js' 'src/**/*.js' 'src/**/*.jsx'",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
-  "repository": "git+https://github.com/alxshelepenok/gatsby-starter-lumen.git",
+  "repository": "git+https://github.com/cynergist/cdsite",
   "keywords": [
     "gatsby",
     "blog",
@@ -21,7 +21,7 @@
     "theme",
     "starter"
   ],
-  "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
+  "author": "Cynthia Dominguez <cmdominguez@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "bluebird": "^3.5.1",
