@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Cynthia Dominguez]]></title><description><![CDATA[Software Engineer]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 03 Oct 2019 21:17:17 GMT</lastBuildDate><item><title><![CDATA[What happens when I browse the Internet all day]]></title><description><![CDATA[A short journey through the world wide web]]></description><link>https://lumen.netlify.com/posts/what-happens-when-I-browse-the-Internet/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/what-happens-when-I-browse-the-Internet/</guid><pubDate>Wed, 02 Oct 2019 16:51:00 GMT</pubDate><content:encoded>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a021481906a9ae289ba37f8f57503c80/12e65/duckduckgo.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 454px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 33.92070484581498%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAdkFEn//xAAXEAADAQAAAAAAAAAAAAAAAAAAAREQ/9oACAEBAAEFApkZ/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8BR//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEABj8Cf//EABgQAQADAQAAAAAAAAAAAAAAAAEAECEx/9oACAEBAAE/IVHYbV//2gAMAwEAAgADAAAAEIPv/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8QQ//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/EEf/xAAZEAEAAgMAAAAAAAAAAAAAAAABABARMbH/2gAIAQEAAT8QDHqBWDbV/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Keyboard with duck on every key except for Return, which is go.&quot;
+        title=&quot;&quot;
+        src=&quot;/static/a021481906a9ae289ba37f8f57503c80/12e65/duckduckgo.jpg&quot;
+        srcset=&quot;/static/a021481906a9ae289ba37f8f57503c80/3bc27/duckduckgo.jpg 240w,
+/static/a021481906a9ae289ba37f8f57503c80/12e65/duckduckgo.jpg 454w&quot;
+        sizes=&quot;(max-width: 454px) 100vw, 454px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://www.flickr.com/photos/76675068@N08/6874492881&quot;&gt;“DuckDuckGo Keyboard”&lt;/a&gt; by &lt;a href=&quot;https://www.flickr.com/photos/76675068@N08&quot;&gt;hasOwnProperty&lt;/a&gt; is licensed under &lt;a href=&quot;https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&amp;#x26;atype=rich&quot;&gt;CC BY 2.0&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;I’ve often wondered what actually happens when I type in a URL like &lt;a href=&quot;http://duckduckgo.com&quot;&gt;duckduckgo.com&lt;/a&gt; (my preferred tracker-free search engine), &lt;a href=&quot;http://nytimes.com&quot;&gt;nytimes.com&lt;/a&gt;, or &lt;a href=&quot;https://cynthiadominguez.com&quot;&gt;even this very website&lt;/a&gt;, to my browser. I figured it was about time to understand the process. If you’re a user of the Internet, I want to invite you on this journey to understand it, too. After all, understanding how your web requests are handled is the first step in learning how to safeguard your personal data while it travels across the Internet. Since companies and governments can learn about us and &lt;a href=&quot;https://www.nytimes.com/interactive/2019/08/23/opinion/data-internet-privacy-tracking.html?te=1&amp;#x26;nl=the-privacy%20project&amp;#x26;emc=edit_priv_20190827?campaign_id=122&amp;#x26;instance_id=11912&amp;#x26;segment_id=16519&amp;#x26;user_id=80fda82107eea58a5092ff8c277eaaa8&amp;#x26;regi_id=91522179&quot;&gt;monetize our data through our online behaviors&lt;/a&gt;, we might as well get a grip on how exactly this happens.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;That’s scary. Why can’t we go back in time when the Internet was a friendly place?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Good call. Let’s grab a blanket and a hot cup of tea so we can start our journey through the inter webs. If you want to reminisce about the dial-up Internet of the 90’s, please go ahead and play &lt;a href=&quot;https://www.youtube.com/watch?v=GSRG0TqxLWc&quot;&gt;that lovely dial-up sound that your modem made&lt;/a&gt;. Do you hear that? It’s a whole lot of servers passing along your request to get a web site to render on your screen. We’re going to visualize our web request moving through the various layers of networking that is the Internet.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;But first, let’s take a step back.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;It’s helpful to frame this whole research quest in terms of &lt;em&gt;information sharing&lt;/em&gt;. If we want to send information, in this case, our web request, to the web server, we will need a way to send the request through the network. There will be several intermediaries for the data to travel through, and we must ensure that all of the information arrives at its destination securely and uncorrupted. For this reason, we have protocols which the data must meet while it is traveling, in order to proceed to the next node (like a router, server, or host of the website). Protocols ensure that a minimum requirement is met for the data to continue on its way. There are several protocols, but the most relevant one is the TCP/IP protocol.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;TCP = Transmission Control Protocol / IP = Internet Protocol&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Before we jump into the multi-layered TCP/IP Model, let’s look at the protocol that governs the Internet.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f170f56792fbf5772caff071d119ed34/48a11/DNS_library.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 500px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EABYBAQEBAAAAAAAAAAAAAAAAAAECA//aAAwDAQACEAMQAAAB1IruduEcT//EABsQAAIDAAMAAAAAAAAAAAAAAAERAAIEAxIT/9oACAEBAAEFAvYIaRSX02bcHAWe1Z//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPwFX/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQIBAT8BR//EABwQAAICAgMAAAAAAAAAAAAAAAABESEQIjFBsf/aAAgBAQAGPwLopUzXzEu0cwf/xAAcEAACAgIDAAAAAAAAAAAAAAAAAREhMWFBUXH/2gAIAQEAAT8hfCl3aHCV1Hg1Uo0LIMQbCsm9MJn/2gAMAwEAAgADAAAAEEgf/8QAFREBAQAAAAAAAAAAAAAAAAAAAHH/2gAIAQMBAT8QS//EABURAQEAAAAAAAAAAAAAAAAAAABx/9oACAECAQE/EFv/xAAcEAEAAgMAAwAAAAAAAAAAAAABABEhMWFBkbH/2gAIAQEAAT8QKM6QVZ3IwXokXrp82xKoruwX3Fg3bUMVQO2VrGpYWMrB8n//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Card catalog at a library.&quot;
+        title=&quot;&quot;
+        src=&quot;/static/f170f56792fbf5772caff071d119ed34/48a11/DNS_library.jpg&quot;
+        srcset=&quot;/static/f170f56792fbf5772caff071d119ed34/3bc27/DNS_library.jpg 240w,
+/static/f170f56792fbf5772caff071d119ed34/98431/DNS_library.jpg 480w,
+/static/f170f56792fbf5772caff071d119ed34/48a11/DNS_library.jpg 500w&quot;
+        sizes=&quot;(max-width: 500px) 100vw, 500px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://www.flickr.com/photos/65695366@N00/1153094645&quot;&gt;“Old Card Catalog/Computer Area”&lt;/a&gt; is licensed under &lt;a href=&quot;https://creativecommons.org/licenses/by-nc-nd/2.0/?ref=ccsearch&amp;#x26;atype=rich&quot;&gt;CC BY-NC-ND 2.0&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;I’m writing this from my local public library. There are several comparisons to draw between our favorite public library and how we would want to navigate to a specific website. We know the name or author of the book we want to find, but in order to find it quickly, we’ll need to know the catalog number of our book. A &lt;strong&gt;DNS&lt;/strong&gt; (Domain Name System) request works very much the same way. The catalog number is like the address of the book we want to find. Web pages work the same way. The address of a web page is their &lt;a href=&quot;https://en.wikipedia.org/wiki/Internet_Protocol&quot;&gt;IP address&lt;/a&gt;, or (“Internet Protocol”) address. We’ll explain this, among other protocols governing each step of the process beginning with hitting enter all the way to when the page renders what you want on your screen.&lt;/p&gt;
+&lt;p&gt;Let’s say we need to look up the IP address of &lt;a href=&quot;http://duckduckgo.com&quot;&gt;duckduckgo.com&lt;/a&gt;. When we type the site name, and then enter, our web browser asks our router for the IP address. If we’ve looked for this site before, our browser should already have the DNS server address stored. If not, it does not immediately ask the DNS server for the IP address of &lt;a href=&quot;http://duckduckgo.com&quot;&gt;duckduckgo.com&lt;/a&gt;. So where does it send this request first? The request first goes to the DNS cache, or DNS resolver cache. This is like a temporary database of IP addresses of the sites that you’ve browsed to. Its purpose is to help get better performance when you’re using the Internet since the goal is not to make a repeat request to the DNS servers.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1232d5bce8bb6ffea3985cb8619d7076/c50c4/www_HTTP.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 70.96774193548386%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAOABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABQBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAa0U5F4Cf//EABkQAAMBAQEAAAAAAAAAAAAAAAEDEQACMv/aAAgBAQABBQJjbqcnyUdUoOSJz//EABYRAAMAAAAAAAAAAAAAAAAAAAEQEf/aAAgBAwEBPwERf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABsQAAIBBQAAAAAAAAAAAAAAAAABIRExMnGB/9oACAEBAAY/AoqjI6OxDQ9n/8QAGhABAAMAAwAAAAAAAAAAAAAAAQARITFRYf/aAAgBAQABPyFloNHYM8ivY1drCGvbN6B7jCY//9oADAMBAAIAAwAAABCIz//EABYRAAMAAAAAAAAAAAAAAAAAABARMf/aAAgBAwEBPxBFH//EABYRAQEBAAAAAAAAAAAAAAAAACEBEP/aAAgBAgEBPxBpn//EABwQAQEAAgIDAAAAAAAAAAAAAAERADEhcUFRkf/aAAgBAQABPxBKGEfK46Ktq8vYa2r4MrCESr76xdLHNK35igC1roz/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Map of the world wide web through networks.&quot;
+        title=&quot;&quot;
+        src=&quot;/static/1232d5bce8bb6ffea3985cb8619d7076/b3ee8/www_HTTP.jpg&quot;
+        srcset=&quot;/static/1232d5bce8bb6ffea3985cb8619d7076/3bc27/www_HTTP.jpg 240w,
+/static/1232d5bce8bb6ffea3985cb8619d7076/98431/www_HTTP.jpg 480w,
+/static/1232d5bce8bb6ffea3985cb8619d7076/b3ee8/www_HTTP.jpg 960w,
+/static/1232d5bce8bb6ffea3985cb8619d7076/c50c4/www_HTTP.jpg 1023w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The TCP/IP Protocol Suite&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Protocols are important because they set up common standards for networks to communicate with each other in the proper way. We’re lucky to live in an age of smooth networking because before a governing organization (the &lt;a href=&quot;https://en.wikipedia.org/wiki/International_Organization_for_Standardization&quot;&gt;ISO&lt;/a&gt;) defined these standards, there were plenty of incompatibilities between various vendors of computer networks. This caused inconsistent or nonexistent communications.&lt;/p&gt;
+&lt;p&gt;These TCP/ICP protocols allow computers from different vendors, running various operating systems, to communicate. So someone running MacOS can send data to someone running Linux, and they in turn can send data to someone running Windows. Specifically, the protocol specifies how data should be “packetized, addressed, transmitted, routed, and received.” &lt;em&gt;See&lt;/em&gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/Internet_protocol_suite&quot;&gt;Internet protocol suite&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We’ll walk through all four layers of the &lt;a href=&quot;https://www.geeksforgeeks.org/tcp-ip-model/&quot;&gt;TCP/IP Model&lt;/a&gt; and what these layers correspond to.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;1 — Link Layer&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/73648c3bdbc404cf7e75d1da62fd6a44/48a11/link_layer.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 500px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 53%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAByWkniS4X/8QAGxAAAgIDAQAAAAAAAAAAAAAAAQIDEQAQEiH/2gAIAQEAAQUCRqwylhGeVr1VUa//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPwGI/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQIBAT8Bqv/EABkQAAIDAQAAAAAAAAAAAAAAAAABEBEhMf/aAAgBAQAGPwIawq45H//EABsQAQACAgMAAAAAAAAAAAAAAAEAIRFBEHGB/9oACAEBAAE/IUQ16yuga3Gwsg7gKal4DPH/2gAMAwEAAgADAAAAEN/P/8QAFhEAAwAAAAAAAAAAAAAAAAAAARAR/9oACAEDAQE/EKKf/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oACAECAQE/EIxT/8QAGRABAQEBAQEAAAAAAAAAAAAAAREAITFh/9oACAEBAAE/EATPPcCDt11CTGWMYwT5mFj1ILhD6R7jzf/Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;A home router.&quot;
+        title=&quot;&quot;
+        src=&quot;/static/73648c3bdbc404cf7e75d1da62fd6a44/48a11/link_layer.jpg&quot;
+        srcset=&quot;/static/73648c3bdbc404cf7e75d1da62fd6a44/3bc27/link_layer.jpg 240w,
+/static/73648c3bdbc404cf7e75d1da62fd6a44/98431/link_layer.jpg 480w,
+/static/73648c3bdbc404cf7e75d1da62fd6a44/48a11/link_layer.jpg 500w&quot;
+        sizes=&quot;(max-width: 500px) 100vw, 500px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Your computer, your router at home, the server at your Internet Service Provider, and the end-host of the website you navigate to, are all examples of stops, or links in the chain, where your web request is delivered. Inside your web request is data, which is delivered in &lt;strong&gt;packets&lt;/strong&gt;. If you imagine that you’re waiting for a package to be delivered to your house, you know there must be some information about that package on the outside where everyone can see it. For each packet, this is called the &lt;strong&gt;header&lt;/strong&gt; and it includes the destination IP address, and your (origin) IP address, among other things. The purpose of this layer is carry your data over link-by-link. Do you use &lt;a href=&quot;https://en.wikipedia.org/wiki/Wi-Fi&quot;&gt;WiFi&lt;/a&gt;? WiFi is an example of a &lt;a href=&quot;https://en.wikipedia.org/wiki/Link_layer&quot;&gt;Link Layer&lt;/a&gt;, and so is &lt;a href=&quot;https://en.wikipedia.org/wiki/Ethernet&quot;&gt;Ethernet&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Digital_subscriber_line&quot;&gt;DSL&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Let’s not forget the use of a &lt;a href=&quot;https://ssd.eff.org/en/glossary/firewall&quot;&gt;firewall&lt;/a&gt; to ensure that packets are safely arriving at their destination. A firewall is used to filter healthy packet traffic whether it is incoming or outgoing, based on a set of security rules. These rules may prevent unwanted connections to particular websites deemed as unsafe. They are also the first line of defense to protect the network from interference.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;2 — Network Layer (a/k/a the Internet Layer)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c6d9defc306090a47d9cd81a6c4cb0aa/bc5dc/network_layer_packet.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 794px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 141.43576826196474%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAcABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMFAgT/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAwEC/9oADAMBAAIQAxAAAAG3hSqToGSffGmsCho3/8QAHBAAAgICAwAAAAAAAAAAAAAAAAIBAxIyEBEU/9oACAEBAAEFAmaIM4Inss2E1toZ38rla4pz/8QAFhEAAwAAAAAAAAAAAAAAAAAAAQIg/9oACAEDAQE/AS0f/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQIg/9oACAECAQE/ASTH/8QAHBAAAgICAwAAAAAAAAAAAAAAAAECESAyM4GR/9oACAEBAAY/Aqs2wRam12ckvRJu8P/EABwQAQACAgMBAAAAAAAAAAAAAAERMQAQICFxkf/aAAgBAQABPyFSSHzKO3zIEmW7TclFGjEfEFvD/9oADAMBAAIAAwAAABB3OMD/xAAXEQEBAQEAAAAAAAAAAAAAAAABEQAQ/9oACAEDAQE/EEGYaXQ5/8QAFxEBAQEBAAAAAAAAAAAAAAAAAREAEP/aAAgBAgEBPxBQOSM1ef/EAB8QAQACAgAHAAAAAAAAAAAAAAEAESExIEFhcZGh4f/aAAgBAQABPxDs0K0AUqXquYA6nUC3PIhnpnzPWiF2CwGIfQyvoZS14P/Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;IPv4 packet diagram&quot;
+        title=&quot;&quot;
+        src=&quot;/static/c6d9defc306090a47d9cd81a6c4cb0aa/bc5dc/network_layer_packet.jpg&quot;
+        srcset=&quot;/static/c6d9defc306090a47d9cd81a6c4cb0aa/3bc27/network_layer_packet.jpg 240w,
+/static/c6d9defc306090a47d9cd81a6c4cb0aa/98431/network_layer_packet.jpg 480w,
+/static/c6d9defc306090a47d9cd81a6c4cb0aa/bc5dc/network_layer_packet.jpg 794w&quot;
+        sizes=&quot;(max-width: 794px) 100vw, 794px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;The Link Layer provides its service to the Network Layer, which is responsible for accepting and sending packets until the packet gets to its destination. You can read more about the different types of packets, but for now, just know that network layer packets are also called &lt;strong&gt;datagrams&lt;/strong&gt;. Cute, right? We used to send telegrams, but now we just send datagrams that are re-assembled to display the page you want. This is where the &lt;strong&gt;Internet Protocol&lt;/strong&gt;, or IP comes into play, as discussed above.&lt;/p&gt;
+&lt;p&gt;Another important protocol belonging to this layer is the ARP (Address Resolution Protocol), which matches the IPv4 address (such as 8.8.8.8) to the physical address, or MAC address.&lt;/p&gt;
+&lt;p&gt;Using ARP, your computer will check its ARP cache to see if there is already a resolved MAC address of the destination device it wants to communicate with. If there is no resolved MAC address, it will prepare and send an ARP request message, along with a destination MAC Address in a broadcast format. This means that every device on the local area network (&lt;a href=&quot;https://en.wikipedia.org/wiki/Local_area_network&quot;&gt;LAN network&lt;/a&gt;) will receive this request, but if the destination MAC address is not theirs, those machines will simply drop the packet. However, if the machine with the correct IP address receives the requests, it will reply back confirming that your computer has found the matching computer it wants to communicate with.&lt;/p&gt;
+&lt;p&gt;It is important to note that ping communications on this level are open. &lt;a href=&quot;https://en.wikipedia.org/wiki/ARP_spoofing&quot;&gt;ARP spoofing&lt;/a&gt; is possible by an attacker who impersonates the MAC address, thus causing traffic meant for the legitimate IP address to be sent to the attacker instead. This is known as a machine-in-the-middle attack. This type of attack requires the attacker to have access to the local network segment. Do you use WiFi? Consider using a &lt;a href=&quot;https://ssd.eff.org/en/module/choosing-vpn-thats-right-you&quot;&gt;Virtual Private Network&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;3 — Transport Layer&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I’d like to think of this layer as the “how” of communication between hosts. There are two commonly used Transport Layer services. One method is very reliable when sending and receiving packets. The other is not.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Transmission Control Protocol (TCP)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This method ensures that data is being transferred in chunks that are just right for the host to be able to handle. It also receives an acknowledgement for every packet sent. This is ensured by way of a handshake.&lt;/p&gt;
+&lt;p&gt;The &lt;em&gt;three-way-handshake&lt;/em&gt; is the process TCP uses to establish a connection with the correct destination. In the packet’s header are flags called &lt;strong&gt;SYN&lt;/strong&gt; and &lt;strong&gt;ACK&lt;/strong&gt;, which stand for &lt;em&gt;synchronization&lt;/em&gt; and &lt;em&gt;acknowledgement&lt;/em&gt;, respectively. The first “handshake” is the SYN flag set to the destination. The second handshake is the destination’s response with both the SYN and ACK flag set. The final handshake is the source’s response with only the ACK flag set.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;User Datagram Protocol (UDP)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I think of this method of data transfer as the sloppy little sibling of TCP. Why? UDP is not connection-oriented and there is no guarantee that packets sent are received by the host. UDP simply wraps up the application data and passes it off to the Network Layer for delivery. It is, however, faster than TCP. So, where speed matters, such as a live video conference, it may be better to ensure a faster stream of packets, rather than ensure every single packet arrives to the host.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;4 — Application Layer&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Let’s go through some important examples of protocols that live in the Application Layer. This has to do with the standardization of the exchange of our data, and more importantly, the security of that data.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/25bdb14bd30017531ef18a3aa21f395b/8a809/URL_path.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 13.250714966634892%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAADABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAdoJBX//xAAWEAADAAAAAAAAAAAAAAAAAAAAARD/2gAIAQEAAQUCjP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEABj8Cf//EABgQAAMBAQAAAAAAAAAAAAAAAAABQREx/9oACAEBAAE/IayDPen/2gAMAwEAAgADAAAAEPw//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAIAQIBAT8QR//EABoQAQADAQEBAAAAAAAAAAAAAAEAESFRMZH/2gAIAQEAAT8QDK3vstFrj2DoL7P/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Components of a URL path&quot;
+        title=&quot;&quot;
+        src=&quot;/static/25bdb14bd30017531ef18a3aa21f395b/b3ee8/URL_path.jpg&quot;
+        srcset=&quot;/static/25bdb14bd30017531ef18a3aa21f395b/3bc27/URL_path.jpg 240w,
+/static/25bdb14bd30017531ef18a3aa21f395b/98431/URL_path.jpg 480w,
+/static/25bdb14bd30017531ef18a3aa21f395b/b3ee8/URL_path.jpg 960w,
+/static/25bdb14bd30017531ef18a3aa21f395b/8a809/URL_path.jpg 1049w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;HTTP (Hypertext Transfer Protocol)&lt;/em&gt; is the main protocol for hypertext documents and hyperlinks, which make up the World Wide Web. URLs are encoded as hyperlinks, which we are familiar with. There are optional components to a hyperlink that include not just the scheme:http, or the host:www.example.com, but also the port:80 as well as the path, query, and fragment, as shown in the snippet above.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/45106592a97b73b91972e81c4c29fbd4/3bc27/https_logo.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 240px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIBAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHXsWQcQX//xAAWEAADAAAAAAAAAAAAAAAAAAARICL/2gAIAQEAAQUCNr//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAYEAACAwAAAAAAAAAAAAAAAAAAAREgMf/aAAgBAQAGPwJKDK//xAAZEAADAQEBAAAAAAAAAAAAAAAAARFRMUH/2gAIAQEAAT8htU2muwq2JJ+Felelen//2gAMAwEAAgADAAAAEO8P/8QAFxEAAwEAAAAAAAAAAAAAAAAAARARUf/aAAgBAwEBPxCHV//EABcRAAMBAAAAAAAAAAAAAAAAAAEQEVH/2gAIAQIBAT8Qh1f/xAAcEAEAAgMAAwAAAAAAAAAAAAABABExYZFBcYH/2gAIAQEAAT8QQC4HBh88hZSXyCWkgFAq9zc7Nzs//9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;HTTPS logo&quot;
+        title=&quot;&quot;
+        src=&quot;/static/45106592a97b73b91972e81c4c29fbd4/3bc27/https_logo.jpg&quot;
+        srcset=&quot;/static/45106592a97b73b91972e81c4c29fbd4/3bc27/https_logo.jpg 240w&quot;
+        sizes=&quot;(max-width: 240px) 100vw, 240px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://www.flickr.com/photos/18090920@N07/15944989872&quot;&gt;“https”&lt;/a&gt; by &lt;a href=&quot;https://www.flickr.com/photos/18090920@N07&quot;&gt;Sean MacEntee&lt;/a&gt; is licensed under &lt;a href=&quot;https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&amp;#x26;atype=rich&quot;&gt;CC BY 2.0&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;a href=&quot;https://ssd.eff.org/en/glossary/https&quot;&gt;HTTPS&lt;/a&gt; (the S stands for SECURE) _is used to ensure that the privacy and integrity of the data is intact while in transit. Remember how the packets include both the host and origin addresses, as well as the port numbers in their headers? This information can not be protected by HTTPS because it is necessary for TCP/IP delivery to the destination host, but other information such as the request URL, &lt;a href=&quot;https://ssd.eff.org/en/glossary/cookies&quot;&gt;cookies&lt;/a&gt; (which may contain personal identifying information about the user), and query parameters can be encrypted.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/23095989a229433a6fd1b22b95fef8b1/50dc6/Caesar_cipher.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 632px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 10.759493670886075%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAACABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAEDBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdeAsB//xAAWEAADAAAAAAAAAAAAAAAAAAAAARD/2gAIAQEAAQUCiP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEABj8Cf//EABkQAAEFAAAAAAAAAAAAAAAAAAABEDFBcf/aAAgBAQABPyFb1on/2gAMAwEAAgADAAAAEPPP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGRAAAgMBAAAAAAAAAAAAAAAAAAERITFx/9oACAEBAAE/EHc2E4b9P//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Example of the ceasar cypher.&quot;
+        title=&quot;&quot;
+        src=&quot;/static/23095989a229433a6fd1b22b95fef8b1/50dc6/Caesar_cipher.jpg&quot;
+        srcset=&quot;/static/23095989a229433a6fd1b22b95fef8b1/3bc27/Caesar_cipher.jpg 240w,
+/static/23095989a229433a6fd1b22b95fef8b1/98431/Caesar_cipher.jpg 480w,
+/static/23095989a229433a6fd1b22b95fef8b1/50dc6/Caesar_cipher.jpg 632w&quot;
+        sizes=&quot;(max-width: 632px) 100vw, 632px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;The transformation can be represented by aligning two alphabets; the cipher alphabet is the plain alphabet rotated left or right by some number of positions. For instance, here is a Caesar cipher using a left rotation of three places, equivalent to a right shift of 23 (the shift parameter is used as the &lt;a href=&quot;https://en.wikipedia.org/wiki/Key_%28cryptography%29&quot;&gt;key&lt;/a&gt;). &lt;em&gt;Credit&lt;/em&gt;: &lt;a href=&quot;https://en.wikipedia.org/wiki/Key_%28cryptography%29&quot;&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What is this smoke and mirrors you refer to as encryption?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://ssd.eff.org/en/glossary/encryption&quot;&gt;Encryption&lt;/a&gt; plays a major role when securing all of your packets sent via many different servers. Basically, it is a method that takes the message and makes it indecipherable, except to the person who has the way to decrypt it back into its original format.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;TLS/SSL&lt;/em&gt; (Transport Layer Security/&lt;a href=&quot;https://ssd.eff.org/en/glossary/secure-sockets-layer-ssl&quot;&gt;Secure Sockets Layer&lt;/a&gt; are both cryptographic protocols to ensure that communication between two computers stays intact. For example, an email message may make several “hops” between servers before it arrives at its host email server. Those hops can be encrypted. However, there is a negotiation phase first before all of these hops happen. Both the client and the server negotiate a “stateful” connection by using a handshake with a cipher or &lt;a href=&quot;https://en.wikipedia.org/wiki/Cryptographic_hash_function&quot;&gt;cryptographic hash function&lt;/a&gt;. Communication going forward is then encrypted. Since the negotiation phase is sent in-the-clear, any server, or computer monitoring traffic in-between could either drop the communication or even impersonate the destination email server. &lt;em&gt;See&lt;/em&gt; &lt;a href=&quot;https://starttls-everywhere.org/faq/&quot;&gt;STARTTLS FAQs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The other Transport Layer encryption example is HTTPS. If you want to implement several ways to encrypt your data, check out &lt;a href=&quot;https://ssd.eff.org/en/module/what-should-i-know-about-encryption&quot;&gt;“What Should I Know About Encryption”&lt;/a&gt; from the Surveillance Self-Defense Guide.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Load Balancer&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;By now, the Internet has got to seem like the Wild West. That’s why we need load balancers to ensure that client requests (like &lt;em&gt;your&lt;/em&gt; request to see &lt;a href=&quot;http://duckduckgo.com&quot;&gt;duckduckgo.com&lt;/a&gt;) get distributed efficiently to the servers that can handle them. To do this, load balancing involves the use of algorithms to filter and sort traffic to direct it to the servers that are ready to handle such requests.&lt;/p&gt;
+&lt;p&gt;Examples of a load balancing algorithm are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Round robin: The requests are distributed across the cluster of servers in strict sequential order, like dealing cards. This method works best with simple incoming traffic.&lt;/li&gt;
+&lt;li&gt;Least connections: The requests are sent to the server with the fewest current connections to clients at the given moment. This method can handle spikes in traffic.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Application Server&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This type of server is designed to create web applications and maintain a server environment for them to run in. For example, any web application you currently use (Slack, Signal, Discord, Spotify, etc.) will have a designated application server which will call data from a shared database.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Database&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The database is a collection of data organized so that it can be accessed efficiently by an application. The application server queries the database, and the unique data requested is presented and displayed as needed by the web application.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Are we there yet?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Yes! If you successfully navigated to &lt;a href=&quot;https://www.nytimes.com/interactive/2019/opinion/internet-privacy-project.html&quot;&gt;nytimes.com&lt;/a&gt;, congratulations! Your request went through all of these steps, then went through all the reverse steps to get back to you. You can now read all the news that’s fit to print. Time for another cup of tea.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resources&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.nytimes.com/interactive/2019/opinion/internet-privacy-project.html&quot;&gt;The NY Times Privacy Project&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;https://www.nytimes.com/interactive/2019/08/23/opinion/data-internet-privacy-tracking.html?te=1&amp;#x26;nl=the-privacy%20project&amp;#x26;emc=edit_priv_20190827?campaign_id=122&amp;#x26;instance_id=11912&amp;#x26;segment_id=16519&amp;#x26;user_id=80fda82107eea58a5092ff8c277eaaa8&amp;#x26;regi_id=91522179&quot;&gt;Farhad Manjoo, “I Visited 47 Sites. Hundreds of Trackers Followed Me.” (New York Times Privacy Project)&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;https://thetechlogy.com/osi-and-tcp-ip-model/&quot;&gt;The TechLogy OSI Model and TCP IP Model Complete Guide, by Praveen Kumar&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;https://www.techrepublic.com/article/exploring-the-anatomy-of-a-data-packet/&quot;&gt;TechRepublic, Exploring the anatomy of a data packet, by Michael Mullins&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;https://ssd.eff.org/en&quot;&gt;Surveillance Self-Defense Guide, EFF.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Varies slightly from the original post, published August 25, 2019 on&lt;/em&gt; &lt;a href=&quot;https://medium.com/@671_31477/what-happens-when-you-type-web-page-url-in-your-browser-and-press-enter-1e9b85d04bcb&quot;&gt;&lt;em&gt;Medium.com&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Corner of the World Wide Web]]></title><description><![CDATA[This is my Hello World]]></description><link>https://lumen.netlify.com/posts/my-corner/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/my-corner/</guid><pubDate>Mon, 30 Sep 2019 16:51:00 GMT</pubDate><content:encoded>&lt;p&gt;I’ll be (over)sharing all the thoughts that don’t fit on Twitter right here.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Upgraded to Gatsby v2]]></title><description><![CDATA[This starter has been forked and upgraded to Gatsby v2]]></description><link>https://lumen.netlify.com/posts/upgraded-to-gatsby-v2/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/upgraded-to-gatsby-v2/</guid><pubDate>Thu, 18 Oct 2018 16:51:00 GMT</pubDate><content:encoded>&lt;p&gt;This is a Gatsby v2 compatible version of the
+&lt;a href=&quot;https://github.com/alxshelepenok/gatsby-starter-lumen&quot;&gt;lumen&lt;/a&gt; starter, started
+by the folks at &lt;a href=&quot;https://www.gatsbycentral.com/&quot;&gt;Gatsby Central&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here’s a little recommended reading for Gatsby v2.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;First, &lt;a href=&quot;https://www.gatsbycentral.com/whats-new-in-gatsby-v2&quot;&gt;what’s new in v2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Next, &lt;a href=&quot;https://www.gatsbycentral.com/when-should-i-upgrade-to-gatsby-v2&quot;&gt;when should I upgrade?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatsbyjs.org/blog/2018-09-17-gatsby-v2/&quot;&gt;The Gatsby v2 announcement blog post&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you &lt;strong&gt;do decide to upgrade&lt;/strong&gt;, these articles will help you do that.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatsbycentral.com/getting-started-with-gatsby-v2&quot;&gt;Getting started with Gatsby v2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatsbycentral.com/should-i-rebuild-my-site-for-gatsby-v2&quot;&gt;Should I rebuild my site for Gatsby v2?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatsbycentral.com/how-do-layouts-work-in-gatsby-v2&quot;&gt;How do layouts work in Gatsby v2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatsbycentral.com/staticquery-in-gatsby-v2&quot;&gt;StaticQuery in Gatsby v2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Finally, here’s a cheat sheet we prepared to help during the upgrade:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatsbycentral.com/gatsby-v2-refactoring-cheat-sheet&quot;&gt;Gatsby v2 refactoring cheat sheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item></channel></rss>
