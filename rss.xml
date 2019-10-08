@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Cynthia Dominguez]]></title><description><![CDATA[Software Engineer]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 08 Oct 2019 07:53:19 GMT</lastBuildDate><item><title><![CDATA[How to make a blog with Gatsby]]></title><description><![CDATA[Have fun making a static site with Gatsby.]]></description><link>https://lumen.netlify.com/posts/how-to-make-a-blog-with-gatsby/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/how-to-make-a-blog-with-gatsby/</guid><pubDate>Mon, 07 Oct 2019 16:51:00 GMT</pubDate><content:encoded>&lt;p&gt;When it came time to build my personal website with a blog, I knew I wanted it to meet a few key criteria:&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Cynthia Dominguez]]></title><description><![CDATA[Software Engineer]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 08 Oct 2019 08:33:31 GMT</lastBuildDate><item><title><![CDATA[How to make a blog with Gatsby]]></title><description><![CDATA[Have fun making a static site with Gatsby.]]></description><link>https://lumen.netlify.com/posts/how-to-make-a-blog-with-gatsby/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/how-to-make-a-blog-with-gatsby/</guid><pubDate>Mon, 07 Oct 2019 16:51:00 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/584a8da925aa324d199bc1c55ba6f738/dde36/build_success.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 15.11904761904762%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAADABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAECBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHNqWQD/8QAFhABAQEAAAAAAAAAAAAAAAAAAAER/9oACAEBAAEFArWtf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEABj8Cf//EABgQAAMBAQAAAAAAAAAAAAAAAAABEVEh/9oACAEBAAE/IWJ8ZWlaf//aAAwDAQACAAMAAAAQD/8A/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGBABAQEBAQAAAAAAAAAAAAAAAREAMZH/2gAIAQEAAT8QlUCZrayvX7v/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Snippet of successfully published output&quot;
+        title=&quot;&quot;
+        src=&quot;/static/584a8da925aa324d199bc1c55ba6f738/b3ee8/build_success.jpg&quot;
+        srcset=&quot;/static/584a8da925aa324d199bc1c55ba6f738/3bc27/build_success.jpg 240w,
+/static/584a8da925aa324d199bc1c55ba6f738/98431/build_success.jpg 480w,
+/static/584a8da925aa324d199bc1c55ba6f738/b3ee8/build_success.jpg 960w,
+/static/584a8da925aa324d199bc1c55ba6f738/b97fe/build_success.jpg 1440w,
+/static/584a8da925aa324d199bc1c55ba6f738/dde36/build_success.jpg 1680w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;When it came time to build my personal website with a blog, I knew I wanted it to meet a few key criteria:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Uncomplicated&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Good security&lt;/strong&gt; (always relative, I know.)&lt;/li&gt;
