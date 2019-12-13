@@ -4,9 +4,9 @@ layout: page
 path: "/about"
 ---
 
-Hi! I’m a software engineer with previous careers in finance, law, and running my own business. Most recently, I completed projects in C and Python while studying a full-stack curriculum. I’m particularly interested in user accessibility and privacy and how we can make advances in technologies more relevant to people from a variety of backgrounds, viewpoints and experiences.
+I’m a software engineer with previous careers in finance, law, and running my own business. Most recently, I completed projects in C and Python while studying a full-stack curriculum. I’m particularly interested in user accessibility and privacy and how we can make advances in technologies more relevant to people from a variety of backgrounds, viewpoints and experiences.
 
-If you know of an opportunity I might be a good fit for, check out [my resume](https://www.visualcv.com/cynthiadominguez/) and drop me a line at cmdominguez at gmail dot com.
+If you know of an opportunity I might be a good fit for, drop me a line at cmdominguez at gmail dot com.
 
 ![Me and my giant surfboard.](./surf.jpeg)
 
